@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
       
-     <h1> meu primeiro react</h1>
+     <h1> My Home</h1>
       </header>
     </div>
   );
