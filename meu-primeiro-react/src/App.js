@@ -1,26 +1,42 @@
 
 import './App.css';
+import HelloWorld from './componentes/HelloWorld'
+import Outro from './componentes/Outro'
+
+
+
+<HelloWorld />
+
+
+
 
 function App() {
   const names2 = 'joseph';
 
+
+
+  
   function som (a, b) {
     return a + b
   }
   som = 1 + 5
   
-  
+
+
   return (
-    <div className="App">
+     
+    
+      <div className="App">
       <header className="App-header">
       
      <div>
 <h2> ola</h2>
-      
+  <Outro />
 <p>a conta da {som}</p>
       <p>ola eu sou o {names2}</p>
      </div>
-    
+     <HelloWorld />
+     <Outro />
       </header>
     </div>
   );  
