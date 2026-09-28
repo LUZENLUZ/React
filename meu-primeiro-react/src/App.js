@@ -2,7 +2,7 @@
 import './App.css';
 import HelloWorld from './componentes/HelloWorld'
 import Outro from './componentes/Outro'
-
+import Hook1 from './hooks/Hook1'
 
 
 <HelloWorld />
@@ -30,6 +30,7 @@ function App() {
       <header className="App-header">
       
      <div>
+      <Hook1 />
 <h2> ola</h2>
   <Outro />
 <p>a conta da {som}</p>
