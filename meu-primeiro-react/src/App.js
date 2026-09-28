@@ -28,16 +28,16 @@ function App() {
     
       <div className="App">
       <header className="App-header">
-      
+    
      <div>
-      <Hook1 />
-<h2> ola</h2>
-  <Outro />
-<p>a conta da {som}</p>
-      <p>ola eu sou o {names2}</p>
+    
+
+    <Hook1 />
+
+      
      </div>
-     <HelloWorld />
-     <Outro />
+  
+     
       </header>
     </div>
   );  
