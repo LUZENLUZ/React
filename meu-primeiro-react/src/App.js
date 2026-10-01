@@ -1,46 +1,25 @@
 
 import './App.css';
-import HelloWorld from './componentes/HelloWorld'
-import Outro from './componentes/Outro'
-import Hook1 from './hooks/Hook1'
-
-
-<HelloWorld />
-
+import OutraLista from './Listas/NovaLista';
 
 
 
 function App() {
-  const names2 = 'joseph';
+const meusItens = ['javascript', 'nodejs', 'ReacCT', 'htmllll' ]
+
+return (
+<div>
+<h1>lista</h1>
+<OutraLista itens={meusItens} />
 
 
+</div>
 
-  
-  function som (a, b) {
-    return a + b
-  }
-  som = 1 + 5
-  
+)
 
-
-  return (
-     
-    
-      <div className="App">
-      <header className="App-header">
-    
-     <div>
-    
-
-    <Hook1 />
-
-      
-     </div>
-  
-     
-      </header>
-    </div>
-  );  
 }
+
+
+
 
 export default App;
