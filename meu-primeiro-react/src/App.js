@@ -1,20 +1,27 @@
-
-import './App.css';
-import OutraLista from './Listas/NovaLista';
+import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom'
+import Empresa from './pages/Empresa'
+import Home from './pages/Home'
 
 
 
 function App() {
-const meusItens = ['javascript', 'nodejs', 'ReacCT', 'htmllll' ]
+
 
 return (
-<div>
-<h1>lista</h1>
-<OutraLista itens={meusItens} />
 
-
-</div>
-
+<Router>
+    <ul>
+        <li><Link to="/">Home</Link></li>
+         <li><Link to="/Empresa">Empresa</Link></li>
+          <li><Link to="/Contato">Contato</Link></li>
+        
+    </ul>
+    <Switch>
+        <Route path="/">
+        <Home />
+        </Route>
+    </Switch>
+</Router>
 )
 
 }
